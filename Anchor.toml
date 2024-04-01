@@ -1,14 +1,14 @@
 [features]
 seeds = false
 skip-lint = false
-[programs.localnet]
-contract_maker = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+[programs.devnet]
+contract_maker = "B1QiqgAYGcsL2HPTLxATxASh8Py6SAX1TBPUzynDvcyC"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/home/teamgreen/.config/solana/id.json"
 
 [scripts]
